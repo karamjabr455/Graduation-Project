@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import '../styles/OnboardingQuiz.css'
+import { useNavigate } from 'react-router-dom'
 
 const OnboardingQuiz = () => {
   const [answers, setAnswers] = useState({
@@ -16,9 +17,10 @@ const OnboardingQuiz = () => {
     }))
   }
 
+  const navigate = useNavigate()
   const handleSubmit = () => {
-    console.log('الإجابات:', answers)
-    // يمكنك هنا توجيه المستخدم أو إرسال البيانات
+    // Add any validation if needed
+    navigate('/result')
   }
 
   return (

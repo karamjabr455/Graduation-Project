@@ -1,0 +1,145 @@
+.hero-section {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #000033, #000066);
+  padding-top: 80px;
+}
+
+.hero-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  flex-wrap: wrap; /* حتى يدعم الموبايل */
+}
+
+.hero-content {
+  flex: 1 1 400px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.hero-text h2 {
+  font-size: 2rem;
+  color: #0088ff;
+  margin-bottom: 2rem;
+}
+
+.start-button {
+  background: #0088ff;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0088ff;
+}
+
+.label {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.hero-image {
+  flex: 1 1 400px;
+  position: relative;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: auto;
+}
+
+.tech-icons {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.tech-icon {
+  font-size: 2.5rem;
+  color: white;
+  opacity: 0.8;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.tech-icon:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+/* موبايل */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .hero-text h2 {
+    font-size: 1.5rem;
+  }
+  .tech-icons {
+    font-size: 1.8rem;
+  }
+  .stats {
+    justify-content: center;
+  }
+}
+
+.hero-section.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.hero-section.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Update hero container layout */
+.hero-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.rtl .hero-container {
+  flex-direction: row-reverse;
+}
+
+/* Update stats alignment */
+.rtl .stats {
+  justify-content: flex-start;
+}
+
+.ltr .stats {
+  justify-content: flex-end;
+}

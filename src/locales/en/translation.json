@@ -1,0 +1,87 @@
+{
+    "nav": {
+      "home": "Home",
+      "dashboard": "Dashboard",
+      "courses": "Courses",
+      "quiz": "Quiz",
+      "about": "About",
+      "search": "Search courses"
+    },
+    "hero": {
+      "title": "Start Your Programming Journey",
+      "subtitle": "From Zero with a Guided Simple Plan",
+      "startButton": "Start Your Custom Path Now",
+      "stats": {
+        "views": "200M",
+        "viewsLabel": "Views",
+        "subscribers": "50K",
+        "subscribersLabel": "Subscribers",
+        "certificates": "6K",
+        "certificatesLabel": "Certificates"
+      }
+    },
+    "features": {
+      "title": "Platform Features",
+      "card1": {
+        "title": "Advance Confidently in Your Path",
+        "description": "An integrated learning system that lets you progress with confidence and consistency"
+      },
+      "card2": {
+        "description": "Learn at your convenience and control your learning pace"
+      },
+      "card3": {
+        "description": "Communities + Interactive Experiences"
+      },
+      "card4": {
+        "description": "A guided learning plan tailored to your level"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": "Sign up and choose your suitable path",
+      "step2": "Develop your skills step-by-step with quizzes",
+      "step3": "Start applying and build your first project",
+      "imageAlt": "How it works"
+    },
+    "testimonials": {
+      "title": "User Testimonials",
+      "user1": {
+        "name": "Sara - 22 years old - First-year programming student",
+        "quote": "An exceptional learning experience that helped me start my programming journey",
+        "alt": "Sara's photo"
+      },
+      "user2": {
+        "name": "Khaled - 25 years old - Web Developer",
+        "quote": "A great platform that saved me a lot of time and effort in learning programming",
+        "alt": "Khaled's photo"
+      },
+      "user3": {
+        "name": "Ahmed - 28 years old - Software Engineer",
+        "quote": "The best Arabic platform for learning programming professionally",
+        "alt": "Ahmed's photo"
+      }
+    },
+    "footer": {
+      "quickLinks": {
+        "title": "Quick Links",
+        "home": "Home",
+        "paths": "Paths",
+        "about": "About"
+      },
+      "legal": {
+        "title": "Legal Links",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Use",
+        "contact": "Contact Us"
+      },
+      "social": {
+        "title": "Follow Us On",
+        "twitter": "Twitter",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "youtube": "YouTube"
+      },
+      "copyright": "© 2024 All rights reserved to Dev Academy"
+    }
+  }
+  
